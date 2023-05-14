@@ -12,7 +12,7 @@ const GoogleLogin = () => {
   const login = async () => {
     const result = await signInWithPopup(auth, googleAuth);
     if (result.user) {
-      router.push("/");
+      router.push("/user");
     }
   };
 
@@ -28,11 +28,11 @@ const GoogleLogin = () => {
         <h1 className="text-4xl">Sign Up & Start writing you own blogs ...</h1>
         <button
           onClick={login}
-          className="text-xl text-white px-20 py-4 rounded-3xl bg-black"
+          className="text-xl text-white px-10 py-4 rounded-3xl bg-black"
         >
           Sign-Up
         </button>
-        <div className="text-xl flex flex-col gap-8">
+        {/* <div className="text-xl flex flex-col gap-8">
           <div>
             <h2>{user ? "Welcome, " + user.displayName : ""}</h2>
             <h2>{user ? "E-Mail : " + user.email : ""}</h2>
@@ -43,7 +43,7 @@ const GoogleLogin = () => {
           >
             Log out
           </button>
-        </div>
+        </div> */}
       </div>
     </div>
   );
