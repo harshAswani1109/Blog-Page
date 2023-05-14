@@ -1,8 +1,9 @@
 import Image from "next/image";
+import Landing from "../../components/landing/landing";
 export default function Home() {
   return (
     <div>
-      <div className="text-9xl rounded-full">Harsh</div>
+      <Landing />
     </div>
   );
 }
