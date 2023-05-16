@@ -2,6 +2,7 @@ import React from "react";
 import { Editor } from "react-draft-wysiwyg";
 import "react-draft-wysiwyg/dist/react-draft-wysiwyg.css";
 import { convertToRaw } from "draft-js";
+import Navbar from "../../../components/navbar/navbar";
 
 const BlogEditor = () => {
   const [editorState, setEditorState] = React.useState();
@@ -9,6 +10,7 @@ const BlogEditor = () => {
   console.log(blogData);
   return (
     <div>
+      <Navbar />
       <form className="flex flex-col justify-center items-center mx-[2%] my-4 gap-4 font-semibold">
         <div className="flex justify-start items-center border-2 w-full text-md md:text-xl p-2">
           <label className="">Blog Name : </label>
