@@ -1,4 +1,4 @@
-import GoogleLogin from "../auth/auth";
+import Link from "next/link";
 import { RxCross1 } from "react-icons/rx";
 const MobileNav = (props) => {
   return (
@@ -11,11 +11,15 @@ const MobileNav = (props) => {
       </div>
 
       <div className="flex flex-col justify-start items-start gap-4 rounded-sm font-semibold w-full p-4 border">
-        <ul>Blogs</ul>
+        <Link href="/user">
+          <ul>Home</ul>
+        </Link>
+        <ul>My Blogs</ul>
+        <Link href="/blog/writeBlog">
+          <ul>Create</ul>
+        </Link>
         <ul>Tutorials</ul>
-        <ul>Reviews</ul>
-        <ul>Community</ul>
-        <ul>New's Letter </ul>
+        <ul>Help</ul>
       </div>
     </div>
   );

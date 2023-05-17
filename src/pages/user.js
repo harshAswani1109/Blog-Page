@@ -1,11 +1,10 @@
 import UserLanding from "../../components/landing/userlanding";
-import Navbar from "../../components/navbar/navbar";
-import BlogEditor from "./blog/writeBlog";
+import UserNavbar from "../../components/userNavbar/navbar";
 
 const User = () => {
   return (
     <div>
-      <Navbar />
+      <UserNavbar />
       <div>
         <UserLanding />
       </div>

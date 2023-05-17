@@ -27,12 +27,12 @@ const GoogleLogin = () => {
     <div className="flex flex-wrap justify-start items-center gap-4">
       <button
         onClick={login}
-        className="text-xl text-black px-6 py-4 rounded-xl bg-white flex justify-center items-center gap-4"
+        className="text-xl text-black px-6 py-4 rounded-xl bg-white flex justify-center items-center gap-2"
       >
-        Join with
         <span>
           <FcGoogle />
         </span>
+        Login
       </button>
       {/* <div className="text-xl flex flex-col gap-8">
           <div>
