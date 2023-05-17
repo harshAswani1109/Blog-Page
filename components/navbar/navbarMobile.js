@@ -11,11 +11,21 @@ const MobileNav = (props) => {
       </div>
 
       <div className="flex flex-col justify-start items-start gap-4 rounded-sm font-semibold w-full p-4 border">
-        <ul>Blogs</ul>
-        <ul>Tutorials</ul>
-        <ul>Reviews</ul>
-        <ul>Community</ul>
-        <ul>New's Letter </ul>
+        <Link href="/blog/homeBlogs">
+          <ul>Blogs</ul>
+        </Link>
+        <Link href="/section/tutorials">
+          <ul>Tutorials</ul>
+        </Link>
+        <Link href="/section/reviews">
+          <ul>Reviews</ul>
+        </Link>
+        <Link href="/section/community">
+          <ul>Community</ul>
+        </Link>
+        <Link href="/section/newsLetter">
+          <ul>New's Letter</ul>
+        </Link>
       </div>
     </div>
   );

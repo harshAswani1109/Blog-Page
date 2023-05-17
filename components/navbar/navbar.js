@@ -32,11 +32,21 @@ const Navbar = () => {
         </div>
 
         <div className="flex flex-row justify-center items-center gap-6 max-md:hidden text-sm font-bold">
-          <ul>Blogs</ul>
-          <ul>Tutorials</ul>
-          <ul>Reviews</ul>
-          <ul>Community</ul>
-          <ul>New's Letter</ul>
+          <Link href="/blog/homeBlogs">
+            <ul>Blogs</ul>
+          </Link>
+          <Link href="/section/tutorials">
+            <ul>Tutorials</ul>
+          </Link>
+          <Link href="/section/reviews">
+            <ul>Reviews</ul>
+          </Link>
+          <Link href="/section/community">
+            <ul>Community</ul>
+          </Link>
+          <Link href="/section/newsLetter">
+            <ul>New's Letter</ul>
+          </Link>
           <GoogleLogin />
         </div>
       </div>
