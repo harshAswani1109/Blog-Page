@@ -21,7 +21,7 @@ const Cricket = () => {
           </div>
         </div>
         <div className="flex justify-center items-center">
-          <Image src={cricImage} className="" />
+          <Image src={cricImage} />
         </div>
       </div>
     </div>

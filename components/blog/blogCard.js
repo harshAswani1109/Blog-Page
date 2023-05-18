@@ -1,6 +1,8 @@
+import React from "react";
 import Image from "next/image";
 import blogImage from "../../public/blogImage.jpeg";
 import Link from "next/link";
+
 const BlogCard = () => {
   return (
     <div className="flex justify-center items-center h-full flex-wrap mt-10 gap-10">
@@ -12,19 +14,19 @@ const BlogCard = () => {
             </h1>
             <p className="my-6 max-sm:my-4 text-md max-md:text-sm w-full">
               Nature has a unique way of captivating our senses, immersing us in
-              its beauty, and providing a sense of tranquility. In today's
-              digital era, we have the privilege of experiencing nature's
-              wonders through various mediums, including the mesmerizing Ultra
-              HD nature GIFs.
+              its beauty, and providing a sense of tranquility. In todays
+              digital era, we have the privilege of experiencing natures wonders
+              through various mediums, including the mesmerizing Ultra HD nature
+              GIFs.
             </p>
             <div className="flex justify-between items-center flex-row gap-2 w-full">
-              <span class="font-bold rounded-full">01/07/2003</span>
+              <span className="font-bold rounded-full">01/07/2003</span>
               <Link href="/blogs/blog1">
-                <button class="text-red-500 font-bold">Edit</button>
+                <button className="text-red-500 font-bold">Edit</button>
               </Link>
             </div>
           </div>
-          <div className="flex justify-center items-center sm:w-1/3  ">
+          <div className="flex justify-center items-center sm:w-1/3">
             <Image
               src={blogImage}
               className="h-60 w-80 md:p-4 xl:p-0 xl:py-4"
@@ -36,4 +38,5 @@ const BlogCard = () => {
     </div>
   );
 };
+
 export default BlogCard;
