@@ -7,6 +7,7 @@ const UserCard = () => {
         <div className="flex justify-center mt-4">
           <Image
             src={harsh}
+            alt="user image"
             className="rounded-full border-solid border-white border-2 h-36 w-36"
           />
         </div>

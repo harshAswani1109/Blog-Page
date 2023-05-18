@@ -28,6 +28,7 @@ const BlogCard = () => {
             <Image
               src={blogImage}
               className="h-60 w-80 md:p-4 xl:p-0 xl:py-4"
+              alt="Blog Image"
             />
           </div>
         </div>

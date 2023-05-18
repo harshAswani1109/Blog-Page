@@ -1,4 +1,4 @@
-import GoogleLogin from "../auth/auth";
+import Link from "next/link";
 import { RxCross1 } from "react-icons/rx";
 const MobileNav = (props) => {
   return (
