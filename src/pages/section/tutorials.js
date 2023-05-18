@@ -1,4 +1,4 @@
-import UserNavbar from "../../../components/userNavbar/navbar";
+import UserNavbar from "../../../components/navbar/navbar";
 
 const Tutorials = () => {
   return (

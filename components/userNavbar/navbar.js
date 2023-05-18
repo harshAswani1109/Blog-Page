@@ -40,9 +40,6 @@ const UserNavbar = () => {
           <Link href="/blog/writeBlog">
             <ul>Create</ul>
           </Link>
-          <Link href="/section/tutorials">
-            <ul>Tutorials</ul>
-          </Link>
         </div>
       </div>
     </nav>
